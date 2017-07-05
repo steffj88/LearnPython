@@ -1,7 +1,7 @@
 
-import class_Person
+import class_Person as cp
 
-person1=class_Person.Person('Steffen',50)
+person1=cp.Person('Steffen',50)
 
 if person1.weight > 40:
     print (person1.weight)
