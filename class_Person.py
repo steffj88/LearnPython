@@ -5,6 +5,11 @@ class Person(object):
         self.weight=weight
         self.name=name
 
+    def health(self):
+        if self.weight <= 80:
+            print('Everything OK')
+        else:
+            print('Health not good')
 
 class Child(Person):
     """The class \"Child`" is derived from the Person class"""

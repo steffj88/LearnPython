@@ -1,7 +1,7 @@
 
 import class_Person as cp
 
-person1=cp.Person('Steffen',75)
+person1=cp.Person('Steffen',85)
 child1=cp.Child("Lisa", 50, 15)
 
 print(child1.name)
@@ -9,6 +9,8 @@ print(child1.name)
 print(cp.Person.__doc__)
 
 print(cp.Child.__doc__)
+
+person1.health()
 
 
 if person1.weight > 40:
